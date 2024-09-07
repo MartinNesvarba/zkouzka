@@ -1,0 +1,204 @@
+html body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-width: 90%;
+}
+
+    nav{
+        width: 1020px;
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+    }
+    nav ul li{
+        width: 145px;
+        list-style: none;
+        float: left;
+        text-align: center;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(150, 11, 11);
+    }
+    .clearfix::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #profile{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        image-rendering: optimizeQuality;
+        object-fit: cover;
+    }
+    .uvod{
+        background: url(obrazky/Mars_2.avif) no-repeat;
+        background-attachment: fixed fixed ;
+        background-size: cover;
+        height: 100%;
+        font-family: Helvetica;
+        overflow: hidden;
+        -webkit-user-select: none;
+    }
+    
+
+    #card{
+        display: block;
+        text-align: center;
+        border: 1px solid rgba(255, 184, 126, 0.5);
+        border-radius: 8px;
+        width: 30rem;
+        padding: 1rem;
+        margin: 5rem auto;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(2px);
+        box-shadow: 0 0 2em rgba(110, 38, 38);
+    }
+    #name{
+        font-family:Georgia;
+        font-size: 32px;
+        background: -webkit-linear-gradient(0deg, white 0%, rgba(254,131,25,1) 35%,
+        rgba(255,38,9,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0.3px black;
+    }
+    
+    #location{
+        font-family: 'Franklin Gothic Medium';
+        font-weight: 500;
+        font-size: 24px;
+        background: -webkit-linear-gradient(0deg, rgb(141, 78, 49) 0%, rgb(13, 26, 212) 35%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: rgb(230,230,230);
+    }
+    #pin{
+        scale: 1.5;
+    }
+    #caption{
+        color: white;
+    }
+    
+    #html,
+    #css,
+    #python,
+    #sqlite
+    {
+        display: inline-flex;
+        color: white;
+        border: 1px solid white;
+        border-radius: 8px;
+        padding: 0.25rem 1rem;
+        margin: 4px;
+        font-size: 18px;
+    }
+    #html:hover,
+    #css:hover,
+    #python:hover,
+    #sqlite:hover{
+        scale: 1.1;
+        background-color: aliceblue;
+        transition: 0.4s ease-out;
+        color: black;
+    }
+    #social-caption{
+        color:rgb(253, 252, 252) ;
+        font-size: 24px;
+    }
+    #social{
+        scale: 2.5;
+        margin: 2rem 0;
+    }
+    #github{
+        color: black;
+    }
+    #github:hover{
+        color: orange;
+        scale: 1.1;
+        transition: 0.2s ease-out;
+        cursor: pointer;
+    }
+#zajimavosti nav{
+background-color: rgb(34, 33, 33);
+box-shadow: 1px 1px black, 2px 2px rgb(36, 34, 34), 5px 5px 5px rgb(58, 24, 24);
+
+}
+
+#zajimavosti{
+    background-color: rgb(66, 66, 66);
+}
+
+#zajimavosti main H1{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 485px;
+    color: rgb(167, 58, 15);
+}
+#zajimavosti main p{
+    font-size: 22px;
+    text-align: justify;
+    padding-left: 485px;
+    color: white;
+}
+
+.bulharsko{
+    width: 50vh;
+    margin-top: 40px;
+    margin-left: 410px;
+}
+
+.Facebook{
+    width: 50vh;
+    margin-left: 140px;
+}
+
+.Apple{
+    width: 50vh;
+    margin-top: 40px;
+    margin-left: 410px;
+}
+footer{
+    font-size: 20px;
+    margin-top: 127px;
+    text-shadow: 1px 1px 10px white;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 100px 100px 0 0;
+    box-shadow: 1px 1px 10px white;
+
+}
+.moje_prace img{
+    box-shadow: 1px 1px 5px red;
+}
+.zajimavosti ul{
+    margin-left: 460px;
+    color: white;
+}
+.zajimavosti ul li{
+    margin-top: 10px;
+    text-decoration:underline red;
+    
+}
+
+.formular{
+    margin-left: 485px;
+}
+.formular input{
+    margin-top: 5px;
+    padding: 10px;
+}
+.text{
+    width: 170px;
+    height: 100px;
+}
+.tlacitko{
+    color: rgb(150, 11, 11);
+    background-color: rgb(34, 33, 33);
+}
